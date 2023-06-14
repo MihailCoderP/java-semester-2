@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HistoryManager {
-    private static final String FILE_NAME = "src/ru/vsuet/course1/cp4/history.csv";
+    private static final String FILE_NAME = "src/history.csv";
 
     // Метод для сохранения выражения и его результат в файл
     public void saveExpression(String expression, double result) {
